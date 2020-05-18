@@ -36,7 +36,7 @@ word_list.forEach(word =>
    // codigo pelo qual a palavra vai ser substituida
    let replaceWith = '<span class="notranslate"> '+word+' </span>';
    
-   // substitui essa palavra pela nova em todo o <body> da página
+   // substitui essa palavra em todo o <body> da página, pela mesma palavra só que dessa vez envolvida pela tag <span>
    document.querySelectorAll('body')[0].innerHTML = document.querySelectorAll('body')[0].innerHTML.split(word).join(replaceWith);
 });
 
