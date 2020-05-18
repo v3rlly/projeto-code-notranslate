@@ -28,11 +28,8 @@ let word_list = [
 
 word_list.forEach(word =>
 {
-
-	let replaceWith = '<span class="notranslate"><mark> '+word+' </mark></span>';
-
-
-	document.querySelectorAll('.entry-wrap')[0].innerHTML = document.querySelectorAll('.entry-wrap')[0].innerHTML.split(word).join(replaceWith);
+   let replaceWith = '<span class="notranslate"> '+word+' </span>';
+   document.querySelectorAll('body')[0].innerHTML = document.querySelectorAll('body')[0].innerHTML.split(word).join(replaceWith);
 });
 
 ```
