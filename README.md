@@ -1,4 +1,4 @@
-# projeto-code-notranslate
+# projeto code NOtranslate
 projeto que tem como objetivo ignorar palavras chave / codigos ao traduzir um artigo estrangeiro sobre programação
 
 A idéia desse projeto é ignorar códigos de programação ao traduzir uma página no chrome.
