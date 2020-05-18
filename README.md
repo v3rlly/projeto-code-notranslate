@@ -20,11 +20,7 @@ let word_list = [
 "Error object",
 "Try…catch",
 "Throw",
-"Call stack",
-"promise",
 "Error Handling",
-"Node.JS",
-"RESTful web API",
 "call stack",
 "function"
 ];
