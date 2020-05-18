@@ -18,6 +18,7 @@ De início a minha ideia foi a seguinte:
 ##### Exemplo
 
 ```javascript
+// lista de palavras
 let word_list = [
 "throw new Error",
 "Error object",
@@ -29,9 +30,13 @@ let word_list = [
 ];
 
 
+// para cada palavra da lista faça o seguinte
 word_list.forEach(word =>
 {
+   // codigo pelo qual a palavra vai ser substituida
    let replaceWith = '<span class="notranslate"> '+word+' </span>';
+   
+   // substitui essa palavra pela nova em todo o <body> da página
    document.querySelectorAll('body')[0].innerHTML = document.querySelectorAll('body')[0].innerHTML.split(word).join(replaceWith);
 });
 
