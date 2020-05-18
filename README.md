@@ -12,7 +12,10 @@ De início a minha ideia foi a seguinte:
 2. pega todo o codigo dentro do ```<body>``` da página
 3. varre o ```<body>``` e vai colocando essas palavras dentro da tag ```<span>``` com a classe ```notranslate```
 
-##### exemplo
+---
+
+
+##### Exemplo
 
 ```javascript
 let word_list = [
