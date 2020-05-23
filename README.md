@@ -45,9 +45,9 @@ word_list.forEach(word =>
 
 #### Exemplo com tags e classes
 
-Alguns artigos costumam envolver o código dentro de alguma [tag](https://www.w3schools.com/tags/default.asp) ou [classe](https://www.w3schools.com/html/html_classes.asp) específica que se repete em todos os outros blocos de código. O desenvolvedor do site do artigo faz isso pra destacar o código com uma determinada sintaxe ou estilo diferente. No medium.com por exemplo, você tem a opção de destacar o código utilizando sintaxe de markdown e no final isso resulta no código entre as tags <pre></pre>.
+Alguns artigos costumam envolver o código dentro de alguma [tag](https://www.w3schools.com/tags/default.asp) ou [classe](https://www.w3schools.com/html/html_classes.asp) específica que se repete em todos os outros blocos de código. O desenvolvedor do site do artigo faz isso pra destacar o código com uma determinada sintaxe ou estilo diferente. No medium.com por exemplo, você tem a opção de destacar o código utilizando sintaxe de markdown e no final isso resulta no código entre as tags <pre>.
 
-Dito isso, uma outra ideia seria varrer o <body> pegar essa classe ou tag e adicionar incluir a nossa classe  ```notranslate```
+Dito isso, uma outra ideia seria varrer o <body> pegar essa classe ou tag e adicionar incluir a nossa classe 'notranslate'
 
 exemplo:
 
